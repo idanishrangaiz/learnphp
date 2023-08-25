@@ -453,6 +453,168 @@ echo " check the number of global variable which is $g;<br>";
 // Array   // Array   // Array   // Array   // Array   // Array   // Array   // Array   
 
 
+$colors =  array("red","green","blue","gray");
+
+
+echo $colors[0] . "<br>";
+echo $colors[1] . "<br>";
+echo $colors[2] . "<br>";
+echo $colors[3] . "<br>";
+
+// part 2
+
+$colors =  ["red","green","blue","gray"];
+
+
+// print_r($colors);
+for($i=0; $i < 4; $i++){
+
+echo $colors[$i] . "<br>";
+}
+
+
+// Associative Array // Associative Array // Associative Array  // Associative Array  // Associative Array 
+
+
+$age = [
+    "sony" => 25,
+    "mony" => 20,
+    "gony" => 15
+];
+
+
+echo $age["sony"] . "<br>";
+echo $age["mony"] . "<br>";
+echo $age["gony"] . "<br>";
+
+
+
+//  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop
+
+$colors = [
+            "red",
+            "green",
+            "gray"
+];
+
+foreach($colors as $values){
+    echo $values . "<br>";
+
+}
+
+// part 2
+
+$colors = [
+    "sony" => 25,
+    "mony" => 15,
+    "jony" => 35
+];
+foreach($colors as $key => $col_values){
+    echo $key . " = " . $col_values . "<br>";
+}
+
+// Multidimensional Array  // Multidimensional Array  // Multidimensional Array  // Multidimensional Array  
+
+    $emp = [
+        ["1","Ahad", "web", "50k"],
+        ["2","saif", "php", "60k"],
+        ["3","hilal", "video", "30k"],
+        ["4","mian", "seo", "150k"],
+        ["5","kami", "laravel", "90k"]
+    ];
+
+    echo $emp[0][0] ." ";
+    echo $emp[0][1] ." ";
+    echo $emp[0][2] ." ";
+    echo $emp[0][3] ." ";
+  
+    echo "<br>";
+
+    echo $emp[1][0] ." ";
+    echo $emp[1][1] ." ";
+    echo $emp[1][2] ." ";
+    echo $emp[1][3] ." ";
+   
+
+// echo "<pre>";
+// print_r($emp);
+// echo "</pre>";
+
+
+// part 2 for
+
+
+$per = [
+    ["1","Ahad", "web", "50k"],
+    ["2","saif", "php", "60k"],
+    ["3","hilal", "video", "30k"],
+    ["4","mian", "seo", "150k"],
+    ["5","kami", "laravel", "90k"]
+];
+
+for($row = 0; $row < 4; $row++){
+    for($col=0; $col < 4; $col++){
+
+        echo $per[$row][$col] . " ";
+    }
+    echo "<br>";
+}
+
+
+// echo "<pre>";
+// print_r($emp);
+// echo "</pre>";
+
+// part 3 foreach
+
+
+echo "<br>";
+$comp = [
+
+    ["1","SUN", "web", "50k"],
+    ["2","MOON", "php", "60k"],
+    ["3","STAR", "video", "30k"],
+    ["4","EARTH", "seo", "150k"],
+    ["5","NONE", "laravel", "90k"]
+];
+
+echo "<table border='2px' cellpadding='5px' rowpadding='0px'>";
+
+foreach($comp as $employ){
+    echo "<tr>";
+    foreach($employ as $newone){
+        echo "<td>";
+        echo $newone . " ";
+        echo "</td>";
+    }
+    echo "<br>";
+    echo "</tr>";
+}
+echo "<table>";
+
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
