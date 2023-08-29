@@ -1,5 +1,5 @@
 <?php 
-// print and echo // print and echo // print and echo // print and echo // print and echo 
+// 4 // print and echo // print and echo // print and echo // print and echo // print and echo 
 echo "ikonic dev";
 echo 'bbbb';
 echo 'cccc', ' dev';
@@ -15,21 +15,21 @@ print "bbb";
 print 'ccc';
 print "bbb". " ccc";
 
-// variable  // variable // variable // variable // variable // variable // variable // variable 
+// 5   // variable // variable // variable // variable // variable // variable // variable 
 
 $dev=  "ikonic <br>";
 
 echo "<h2>" .$dev. "</h2>";
  
 
-// datatypes // datatypes // datatypes// datatypes// datatypes// datatypes// datatypes // datatypes
+// 6 // datatypes // datatypes// datatypes// datatypes// datatypes// datatypes // datatypes
 
 $datatype = "didiid";
 
 var_dump ($datatype) ;
 
 
-// conttant variable // conttant variable // conttant variable // conttant variable // conttant variable
+// 8 // conttant variable // conttant variable // conttant variable // conttant variable
 
 define("test", 40);
 
@@ -40,7 +40,7 @@ $sum = test + 20;
 echo $sum;
 
 
-// Arithemetic Operations // Arithemetic Operations // Arithemetic Operations // Arithemetic Operations
+// 9 // Arithemetic Operations // Arithemetic Operations // Arithemetic Operations
 
 $a = 2;
 $b = 10;
@@ -48,7 +48,7 @@ $b = 10;
 echo $c = $a + $b ;
 
 
-// Assignment Operators // Assignment Operators // Assignment Operators // Assignment Operators 
+// 10 // Assignment Operators // Assignment Operators // Assignment Operators 
 
 $a = 4;
 $b = 5;
@@ -58,7 +58,7 @@ $a += $b;
 echo $a;
 
 
-// Comparison Operator // Comparison Operator // Comparison Operator // Comparison Operator 
+// 11 // Comparison Operator // Comparison Operator // Comparison Operator 
 
  
  $a = 5;
@@ -68,7 +68,7 @@ echo $a;
 
  echo $a <=> $b; 
 
-// IF statement // IF statement // IF statement // IF statement // IF statement // IF statement 
+// 12 // IF statement // IF statement // IF statement // IF statement // IF statement 
 
 $a = 5;
 $b = 4;
@@ -85,7 +85,7 @@ if( $a === $b):
     echo "<br>A is equal value and datatype with B<br>";
  endif;
 
-// Logical Operator // Logical Operator // Logical Operator // Logical Operator 
+// 13 // Logical Operator // Logical Operator // Logical Operator 
 
 
 $age = 55;
@@ -95,7 +95,7 @@ if( $age >=45 && $age <=60 ){
     echo "<br>Age is ok<br>";
 }
 
-// IF ELSE STATEMENT // IF ELSE STATEMENT// IF ELSE STATEMENT // IF ELSE STATEMENT
+// 14 // IF ELSE STATEMENT // IF ELSE STATEMENT// IF ELSE STATEMENT // IF ELSE STATEMENT
 
 $salma = 1100;
 
@@ -121,7 +121,7 @@ else {
 }
 
 
-//  ELSE IF STATEMENT // ELSE IF STATEMENT // ELSE IF STATEMENT // ELSE IF STATEMENT //
+//  15 // ELSE IF STATEMENT // ELSE IF STATEMENT // ELSE IF STATEMENT //
 
 $marks = 50;
 
@@ -140,7 +140,7 @@ if( $marks >= 80 && $marks <= 100){
 }
 
 
-//  SWITCH STATEMENT // //  SWITCH STATEMENT ////  SWITCH STATEMENT ////  SWITCH STATEMENT //
+//  16 // //  SWITCH STATEMENT ////  SWITCH STATEMENT ////  SWITCH STATEMENT //
 
 $Weekday = 5;
 
@@ -189,7 +189,7 @@ switch(true){
 
 
 
-//  Ternary  OPERATOR //  Ternary  STATEMENT  //  Ternary  STATEMENT  //  Ternary  STATEMENT\
+//  17 //  Ternary  STATEMENT  //  Ternary  STATEMENT  //  Ternary  STATEMENT\
 // USES FOR ONLY ONE STATEMENT OR CONDTION, if you have more than one condtion , you should use IF-ELSE STATEMENT
 
 $x = 15;
@@ -207,7 +207,7 @@ $z = ($x > 20) ? "<br>Greater<br>" : "<br>smaller<br>";
 echo $z ;
 
 
-//  String Operators  //  String Operators  //  String Operators  //  String Operators
+//  18  //  String Operators  //  String Operators  //  String Operators
 
 $x= "Hello";
 
@@ -230,7 +230,7 @@ $z = $x . $y;
 echo $z;
 
 
-//  While Loop  //  While Loop  //  While Loop  //  While Loop  //  While Loop  
+// 19  //  While Loop  //  While Loop  //  While Loop  //  While Loop  
 
 $a = 1;
 
@@ -249,7 +249,7 @@ while( $a >=15){
 }
 
 
-// DO While Loop  // DO While Loop // DO While Loop // DO While Loop // DO While Loop // DO While Loop 
+// 20  // DO While Loop // DO While Loop // DO While Loop // DO While Loop // DO While Loop 
 
 $a = 2;
 
@@ -268,7 +268,7 @@ do {
 }while( $b >=10);
 
 
-// FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop   
+// 21  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop  // FOR Loop   
 
 for($a =1; $a <=10; $a++)
 {
@@ -282,7 +282,7 @@ for($a =15; $a >=5; $a--)
     echo $a . ") decrement in for loop<br>  <br>";
 }
 
-// Nested  Loop  // Nested  Loop  // Nested  Loop  // Nested  Loop  // Nested  Loop  // Nested  Loop  
+// 22  // Nested  Loop  // Nested  Loop  // Nested  Loop  // Nested  Loop  // Nested  Loop  
 
     for($a = 1; $a <= 100; $a = $a + 10){
         for( $b = $a; $b < $a + 10; $b++ ){
@@ -292,7 +292,7 @@ for($a =15; $a >=5; $a--)
     }
 
 
-// Continue & Break Statement // Continue & Break Statement // Continue & Break Statement 
+// 23 // Continue & Break Statement // Continue & Break Statement // Continue & Break Statement 
 
 
     for( $a=1; $a <= 10; $a++){
@@ -313,7 +313,7 @@ for($a =15; $a >=5; $a--)
         echo "No is: " . $a . "<br>";
     }
 
-// GOTO Statement // GOTO Statement // GOTO Statement // GOTO Statement 
+// 24 // GOTO Statement // GOTO Statement // GOTO Statement 
 
 
 echo "hello world<br>";
@@ -329,7 +329,7 @@ echo "hello world<br>";
 abc:
 echo "hey this is abc lable";
 
-// FUNCTION Statement // FUNCTION Statement // FUNCTION Statement // FUNCTION Statement
+// 25 // FUNCTION Statement // FUNCTION Statement // FUNCTION Statement
 
 
 function username(){
@@ -337,7 +337,7 @@ function username(){
 }
 username();
 
-// FUNCTION with PARAMETERS Statement // FUNCTION with PARAMETERS Statement // FUNCTION with PARAMETERS Statement 
+// 26 // FUNCTION with PARAMETERS Statement // FUNCTION with PARAMETERS Statement 
 
 function sum($a, $b){
     echo "value is : " . $a - $b;
@@ -349,7 +349,7 @@ sum(2,4);
 
 
 
-// Functions with Returning Value // Functions with Returning Value // Functions with Returning Value 
+// 27 // Functions with Returning Value // Functions with Returning Value 
 
 function data($fname, $lname){
     $v = "$fname $lname";
@@ -387,7 +387,7 @@ $add = additions(5, 10, 15);
 percentage($add);
 
 
-// Function Argument By Reference // Function Argument By Reference // Function Argument By Reference 
+// 28 // Function Argument By Reference // Function Argument By Reference // Function Argument By Reference 
 
 
 function testing(&$code){
@@ -397,7 +397,7 @@ $test = " <br>this is the code for function aurgument by refernece ";
 testing($test);
 echo $test;
 
-// Variable Functions // Variable Functions // Variable Functions // Variable Functions 
+// 29 // Variable Functions // Variable Functions // Variable Functions 
 
 function storm(){
     echo "<br>hello world.";
@@ -415,7 +415,7 @@ $sum(" rehan");
 
 
 
-// Recursive Function // Recursive Function // Recursive Function // Recursive Function 
+// 30 // Recursive Function // Recursive Function // Recursive Function 
 
 function display($num){
     if($num <= 5){
@@ -439,7 +439,7 @@ function factorial($n){
 echo factorial(5);
 
 
-// Global & Local Variable // Global & Local Variable // Global & Local Variable // Global & Local Variable
+// 31 // Global & Local Variable // Global & Local Variable // Global & Local Variable
 $g =10;
 function test(){
     global $g;
@@ -450,7 +450,7 @@ test();
 echo " check the number of global variable which is $g;<br>";
 
 
-// Array   // Array   // Array   // Array   // Array   // Array   // Array   // Array   
+// 32   // Array   // Array   // Array   // Array   // Array   // Array   // Array   
 
 
 $colors =  array("red","green","blue","gray");
@@ -473,7 +473,7 @@ echo $colors[$i] . "<br>";
 }
 
 
-// Associative Array // Associative Array // Associative Array  // Associative Array  // Associative Array 
+// 33 // Associative Array // Associative Array  // Associative Array  // Associative Array 
 
 
 $age = [
@@ -489,7 +489,7 @@ echo $age["gony"] . "<br>";
 
 
 
-//  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop
+//  34 // Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop //  Foreach Loop
 
 $colors = [
             "red",
@@ -513,7 +513,7 @@ foreach($colors as $key => $col_values){
     echo $key . " = " . $col_values . "<br>";
 }
 
-// Multidimensional Array  // Multidimensional Array  // Multidimensional Array  // Multidimensional Array  
+// 35  // Multidimensional Array  // Multidimensional Array  // Multidimensional Array  
 
     $emp = [
         ["1","Ahad", "web", "50k"],
@@ -592,23 +592,169 @@ foreach($comp as $employ){
 }
 echo "<table>";
 
-// 
+// 36 // PHP Multidimensional Associative // PHP Multidimensional Associative 
+ $marks = [
+    "SAIF" => [
+        "phy" =>85,
+        "chem" =>69,
+        "eng" => 89
+    ],
+    "HILAL" => [
+        "phy" =>65,
+        "chem" =>49,
+        "eng" => 83
+    ],
+    "IRUM" => [
+        "phy" =>65,
+        "chem" =>79,
+        "eng" => 49
+    ]
+
+    ];
+    echo "<table border='2px' cellpadding='1px' rowpadding='0px'>";
+    foreach($marks as $key => $num1){
+        echo "<tr>";
+        echo " <td> $key </td> ";
+        foreach($num1 as $num2){
+            echo "<td>" . $num2 . "<td>" .  " ";
+        }
+        echo "</tr>";
+    }
+    
+    echo "</table>";
+  
+
+
+// 37 // Foreach Loop with List // Foreach Loop with List // Foreach Loop with List 
+
+$emp = [
+        [1,"saif","web developer", 90000],
+        [2,"asad","front end developer", 100000],
+        [3,"tux","teacher", 134000],
+        [4,"hial","node developer", 50000]
+
+];
+    echo "<table border='2px' cellpadding='5px' rowpadding='1px'>";
+    foreach($emp as list($id, $name, $designation, $salary)){
+        echo "<tr><td>$id</td> <td>$name</td> <td>$designation</td> <td>$salary</td> </tr>";
+
+    }
+
+    echo "<table>";
 
 
 
+    // part 2 as an asscoiative array
 
 
 
+$employe = [
+        [
+            "id" => 1,
+            "name" => "saif",
+            "designation" => "web developer",
+            "salary" => 90000
+        ],
+        [
+            "id" => 2,
+            "name" => "shaif",
+            "designation" => " developer",
+            "salary" => 190000
+        ],
+        [
+            "id" => 3,
+            "name" => "jaif",
+            "designation" => "web deisgner",
+            "salary" => 50000
+        ],
+        [
+            "id" => 4,
+            "name" => "kaif",
+            "designation" => "wix developer",
+            "salary" => 30000
+        ],
+        [
+            "id" => 5,
+            "name" => "naif",
+            "designation" => " developer",
+            "salary" => 40000
+        ],
+
+];
+    echo "<table border='2px' cellpadding='5px' rowpadding='1px'>";
+    foreach($employe as list("id" => $id, "name" => $name, "designation" => $designation, "salary" =>$salary)){
+        echo "<tr><td>$id</td> <td>$name</td> <td>$designation</td> <td>$salary</td> </tr>";
+
+    }
+
+    echo "<table>";
+
+
+ // 38 //Array Count & Sizeof Function //Array Count & Sizeof Function
+
+
+    $food = array('apple', 'mango', 'banana', 'juice');
 
 
 
+    echo count($food) . "<br>";
+    echo sizeof($food) . "<br>";
 
 
+    // part 2
+    $fodsum = array(
+        'fruits' => array('apple', 'mango', 'banana', 'juice'),
+        'vegitable' => array('lemon', 'carot', 'potato', 'onion')
+    );
+
+    echo count($fodsum,1) . " <br>";
 
 
+// 39  // Array In_array & Array_search Function // Array In_array & Array_search Function 
+
+    $fod = array('apple', 'mango', 'banana', 55, 'juice');
+            // in_array mean, it will show only 0/1 for ture it ll show 1 and for false ll show nothing.
+
+    echo in_array('banana', $fod);
+    // if(in_array(55, $fod, true)){
+    //     echo  "<br>found";
+    // }
+    // else{
+    //     echo "not found";
+    // }
+
+// PART 2 ARRAY_SEARCH
+
+        $fad = array('apple', 'mango', 'banana', 55, 'juice');
+        echo "<br>";
+        echo array_search('mango', $fad) . "<br>";
 
 
+// 40 Array_replace & Array_replace_recursive // Array_replace & Array_replace_recursive
 
+        $fuirts = array('apple', 'mango', 'banana', 'juice');
+
+        $colors = array('red', 'green');
+
+        $new_array = array_replace($fuirts, $colors);
+        
+        echo "<pre>";
+        print_r( $new_array);
+        echo "</pre>";
+
+//ARRAY_REPLACE_RECURSIVE
+        $fuirts = array("a" => array("lemon"), "b" => array("mango"), "c" => array("apple", "banana", "sand"));
+
+        $color = array("a" => array("yellow"), "c" => array("light", "white"));
+
+        $new_array = array_replace_recursive($fuirts, $color);
+
+        echo "<pre>";
+        print_r($new_array);
+        echo "</pre>";
+
+
+// 41 //
 
 
 
