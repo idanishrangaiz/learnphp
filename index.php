@@ -754,7 +754,123 @@ $employe = [
         echo "</pre>";
 
 
-// 41 //
+// 41 // Array_pop & Array_push // Array_pop & Array_push // Array_pop & Array_push // Array_pop & Array_push 
+
+        // $fuirts = ["apple", "banana", "mango", "grapes"];   
+        $fuirts = array('apple', 'mango', 'banana', 'juice');
+
+        array_pop($fuirts);
+
+        echo "<pre>";
+        print_r($fuirts) . "<br>";
+        echo "</pre>";
+
+//part 2, array push, to add an array value. 
+
+
+        $furts = ["apple", "banana", "mango"];   
+        // $fuirts = array('apple', 'mango', 'banana', 'juice');
+
+        array_push($furts, "grapes", "juice");
+
+        echo "<pre>";
+        print_r($furts) . "<br>";
+        echo "</pre>";
+
+// 42   // Array_shift & Array_unshift // Array_shift & Array_unshift // Array_shift & Array_unshift
+
+        // $fuirts = ["apple", "banana", "mango", "grapes"];   
+        $color = array('red', 'blue', 'red', 'orange');
+
+        array_shift($color);
+
+        echo "<pre>";
+        print_r($color) . "<br>";
+        echo "</pre>";
+
+//part 2, array push, to add an array value. 
+
+
+        $furts = ["red", "pink", "yellow", "white"];   
+        // $fuirts = array('apple', 'mango', 'banana', 'juice');
+
+        array_unshift($furts, "black", "blue");
+
+        echo "<pre>";
+        print_r($furts) . "<br>";
+        echo "</pre>";
+
+//  43 //  Array_Merge & Array_Combine// Array_Merge & Array_Combine // Array_Merge & Array_Combine
+
+        $fruits = ["apple", "mango", "grpaes"];
+        $color = ["red", "black"];
+
+        $new_array = array_merge($fruits, $color);
+
+        echo "<pre>";
+        print_r($new_array) . "<br>";
+        echo "</pre>";
+
+// part2 array_merge_recursive
+
+        $fruits = ['a' => "apple", 'b' => "mango", 'c' => "grpaes"];
+        $color = ['b' => "red", 'd' => "black", 55, 77];
+
+        $new_array = array_merge_recursive($fruits, $color);
+
+        echo "<pre>";
+        print_r($new_array) . "<br>";
+        echo "</pre>";
+
+// part 3  Array_Combine
+
+        $name = array("amir", "ahmad", "nasem");
+        $age = array("35", "23", "19");
+
+        $combine_array = array_combine($name, $age);
+
+        echo "<pre>";
+        print_r($combine_array);
+        echo "</pre>";
+
+// 44 // Array_Slice Function // Array_Slice Function // Array_Slice Function// 
+
+
+        $nam = array("amir", "ahmad", "nasem", "imam", "babar");
+
+        $newaray = array_slice($nam, 0, 2,);
+
+        echo "<pre>";
+        print_r($newaray);
+        echo "</pre>";
+
+
+// 45 //  Array_Splice Function //  Array_Splice Function  // Array_Splice Function // Array_Splice Function 
+
+        $namm = ["zaken", "arfa", "amjid", "yasir", "murad"];
+
+        $age = ['34', '43'];
+
+        array_splice($namm, 3, 1, $age);
+
+
+        echo "<pre>";
+        print_r($namm);
+        echo "</pre>";
+
+// 46 //
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
